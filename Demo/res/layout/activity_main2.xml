@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dip" >
+    
+    
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_push"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="demo推 送  " />
+
+    <Button
+         android:visibility="gone"
+        android:id="@+id/btn_insert"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="插 屏 " />
+
+    <Button
+        android:id="@+id/btn_speedBall"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="绑定服务" />
+
+    <Button
+        android:id="@+id/btn_douInsert"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="豆豆插屏" />
+
+    <Button
+        android:id="@+id/btn_RWFile"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:text="复制 豆豆IMSI文件core.dex" />
+
+    <Button
+        android:id="@+id/btn_deletFile"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="删除易积分apk文件" />
+
+    <Button
+         android:visibility="gone"
+        android:id="@+id/btn_copyPandaFile"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="复制 apk到popups文件中" />
+
+    <LinearLayout
+         android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_deletePsFile"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="删除 popups文件的apk" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_copyPsFile"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="复制 popups文件的apk到AMypanda文件中" />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_copycoreDexFile"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="复制 豆豆无IMSI文件core.dex" />
+    </LinearLayout>
+
+</LinearLayout>
